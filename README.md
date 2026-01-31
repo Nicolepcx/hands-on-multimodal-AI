@@ -16,11 +16,6 @@ This repository provides the hands-on excercises for the Live Event. It covers p
 ---
 
 
----
-
-
----
-
 ## Contents and Exercises
 
 ### Section 1 • Multimodal Foundations and Tokenization
