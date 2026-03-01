@@ -9,12 +9,14 @@ This repository provides the hands-on excercises for the Live Event. It covers p
 ```
 .
 ├── hands_on/  # Hands-on exercises
+├── demo/  # Demo Notebooks
 ├── helper_functions/  # Helper functions for some notebooks     
 └── README.md
 ```
 
 ---
 
+# ATT you need to go to the hands on folder, some notebooks won't display because of the model weights in the notebooks, this is a known GitHub issue. Download the notebooks and upload them into your Colab environment.
 
 ## Contents and Exercises
 
@@ -29,9 +31,7 @@ Core concepts:
 **Hands-on notebook:**  
 (Tokenizing text, images, and audio into embeddings)
 
-<a href="COLAB_LINK_01" target="_blank">
-<img src="https://colab.research.google.com/assets/colab-badge.svg"/>
-</a>
+
 
 ---
 
@@ -46,9 +46,6 @@ Core concepts:
 **Hands-on notebook:**  
 (Video question answering and visual information extraction)
 
-<a href="COLAB_LINK_02" target="_blank">
-<img src="https://colab.research.google.com/assets/colab-badge.svg"/>
-</a>
 
 ---
 
@@ -63,9 +60,6 @@ Core concepts:
 **Hands-on notebook:**  
 (Audio Q&A, classification, and transcription)
 
-<a href="COLAB_LINK_03" target="_blank">
-<img src="https://colab.research.google.com/assets/colab-badge.svg"/>
-</a>
 
 ---
 
@@ -80,9 +74,6 @@ Core concepts:
 **Hands-on notebook:**  
 (Automatic speaker segmentation + transcription + summarization)
 
-<a href="COLAB_LINK_04" target="_blank">
-<img src="https://colab.research.google.com/assets/colab-badge.svg"/>
-</a>
 
 ---
 
@@ -97,9 +88,6 @@ Core concepts:
 **Hands-on notebook:**  
 (Asking questions over tables, charts, and images)
 
-<a href="COLAB_LINK_05" target="_blank">
-<img src="https://colab.research.google.com/assets/colab-badge.svg"/>
-</a>
 
 ---
 
