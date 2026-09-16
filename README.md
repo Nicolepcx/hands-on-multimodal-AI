@@ -16,8 +16,6 @@ This repository provides the hands-on excercises for the Live Event. It covers p
 
 ---
 
-# ATT you need to go to the hands on folder, some notebooks won't display because of the model weights in the notebooks, this is a known GitHub issue. Download the notebooks and upload them into your Colab environment.
-
 ## Contents and Exercises
 
 ### Section 1 • Multimodal Foundations and Tokenization
@@ -28,8 +26,17 @@ Core concepts:
 * Tokenization across text, images, and audio  
 * Embedding alignment across modalities  
 
-**Hands-on notebook:**  
-(Tokenizing text, images, and audio into embeddings)
+**Hands-on notebook** — Tokenizing text, images, and audio into embeddings
+
+| Notebook | Colab |
+|---|---|
+| Multimodal Tokens & Embeddings | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/hands-on/HANDS_ON_session_01_multimodal_tokens_and_embeddings.ipynb) |
+
+**Demos**
+
+| Notebook | Colab |
+|---|---|
+| Multimodal Tokens & Embeddings | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_01_multimodal_tokens_and_embeddings.ipynb) |
 
 
 
@@ -43,8 +50,20 @@ Core concepts:
 * Frame extraction and visual context windows  
 * Prompting with visual + textual inputs  
 
-**Hands-on notebook:**  
-(Video question answering and visual information extraction)
+**Hands-on notebook** — Video question answering and visual information extraction
+
+| Notebook | Colab |
+|---|---|
+| Video Information Extraction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/hands-on/HANDS_ON_session_02_video_information_extracting.ipynb) |
+
+**Demos**
+
+| Notebook | Colab |
+|---|---|
+| GLM-4.6 Flash | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_02_GLM_4_6_Flash.ipynb) |
+| LongCat Image Edit | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_02_LongCat_image_edit.ipynb) |
+| Video Classification | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_02_video_classification_example.ipynb) |
+| Video Information Extraction | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_02_video_information_extracting.ipynb) |
 
 
 ---
@@ -57,8 +76,19 @@ Core concepts:
 * Audio tokenization and sampling rates  
 * Speech transcription and audio classification  
 
-**Hands-on notebook:**  
-(Audio Q&A, classification, and transcription)
+**Hands-on notebook** — Audio Q&A, classification, and transcription
+
+| Notebook | Colab |
+|---|---|
+| Extract Audio from Video Q&A | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/hands-on/HANDS_ON_session_03_Extract_Audio_from_Video_QA.ipynb) |
+
+**Demos**
+
+| Notebook | Colab |
+|---|---|
+| Qwen2-Audio Audio Tasks | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_03_Qwen2_Audio_different_audio_tasks.ipynb) |
+| SAM Audio | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_03_SAM_audio.ipynb) |
+| Voxtral Mini 4B Realtime | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_03_Voxtral_Mini_4B_Realtime.ipynb) |
 
 
 ---
@@ -71,8 +101,18 @@ Core concepts:
 * Meeting transcription pipelines  
 * Multimodal understanding workflows  
 
-**Hands-on notebook:**  
-(Automatic speaker segmentation + transcription + summarization)
+**Hands-on notebook** — Automatic speaker segmentation + transcription + summarization
+
+| Notebook | Colab |
+|---|---|
+| AudioFlamingo3 Meeting Analysis | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/hands-on/HANDS_ON_session_04_AudioFlamingo3_meeting_analysis.ipynb) |
+
+**Demos**
+
+| Notebook | Colab |
+|---|---|
+| Meeting Transcription | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_04_audio_transcribe_meeting.ipynb) |
+| SAM 3 Agent | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_04_sam3_agent.ipynb) |
 
 
 ---
@@ -85,8 +125,17 @@ Core concepts:
 * Retrieving text, tables, and images  
 * Structured data extraction from PDFs  
 
-**Hands-on notebook:**  
-(Asking questions over tables, charts, and images)
+**Hands-on notebook** — Asking questions over tables, charts, and images
+
+| Notebook | Colab |
+|---|---|
+| Multimodal RAG Pipeline | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/hands-on/HANDS_ON_session_05_Multimodal_RAG_Pipeline.ipynb) |
+
+**Demos**
+
+| Notebook | Colab |
+|---|---|
+| Multimodal RAG Pipeline | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nicolepcx/hands-on-multimodal-AI/blob/main/demo/DEMO_session_05_Multimodal_RAG_Pipeline.ipynb) |
 
 
 ---
